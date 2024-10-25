@@ -1,0 +1,520 @@
+{
+    //Credits that will display when the language is selected
+    "settings_Language_description": "Default Language",
+    "settings_Language_refresh_to_take_effect": "Refresh the page to take effect",
+
+    //Name and description that will show on the extension store
+    "manifest_name": "RoQoL - Improve your Roblox experience",
+    "manifest_description": "Multiple changes to the roblox site for a better user experience.",
+
+    //RoQoL Premium
+    "roqol_premium": "RoQoL Premium",
+    "roqol_premium_feature": "This feature is only available to RoQoL Premium subscribers!",
+    "roqol_premium_subscribe_benefits": "Subscribe to get benefits such as:",
+    "roqol_premium_subscribe": "Subscribe for {Price}",
+
+    //The price of an item (that is free)
+    "price_free": "Free",
+
+    //Owner of item/game e.g. By (name)
+    "owner_by": "By",
+
+    //e.g. Page 1 / Page 2 / Page 3
+    "current_page": "Page {Page}",
+
+    //Loading a feature
+    "feature_loading": "Loading",
+    //Feature failed to load (e.g. images or a name)
+    "feature_failed_to_load": "Failed to load",
+    //Generic fail name
+    "feature_failed": "Failed",
+
+    //Private Servers
+    "feature_active_private_servers_button": "Active Private Servers",
+    "feature_private_servers_button": "Private Servers",
+    "feature_active_private_servers_found": "Found {ActivePrivateServers} active out of {TotalPrivateServers} private servers!",
+
+    //Monthly cost in robux for a server
+    "feature_active_private_servers_monthly_cost": "{PriceInRobux}/month",
+
+    //Quick wear accessory
+    "feature_quick_wear_wear_button": "Wear",
+    "feature_quick_wear_take_off_button": "Take off",
+
+    //Badge achieved date
+    "feature_badges_achieved": "Achieved At",
+    //Failed to load badge count
+    "feature_badges_failed": "Failed",
+    //Count how many badges a player has
+    "feature_badges_count_button": "Count",
+
+    //Banned users feature
+
+    //Locked group
+    "feature_locked_group_icon": "Locked Group",
+
+    //Loading a banned user's information such as name and friends
+    "feature_banned_user_fetching_user_info": "Loading user info",
+
+    //Title name for the tab
+    "feature_banned_user_friends_page_title": "Friends - Roblox",
+    "feature_banned_user_profile_page_title": "{displayName} - Roblox",
+    
+    //Possessive name for a user's friends (e.g. Cookie (@Haydz6)'s Friends)
+    "feature_banned_user_friends": "{displayName} (@{userName})'s Friends",
+
+    //Best friends
+
+    //Friends activity
+    "feature_friends_activity_title": "Friends Activity",
+
+    //Button toggle to only allow best friends to see their inventory or what they are playing
+    "feature_best_friends_only_inventory": "Allow best friends to see your inventory",
+    "feature_best_friends_only_presence": "Allow best friends to see what you are playing",
+
+    //Expand or reduce the size of the best friends list (Adds or removes a row from the best friends list on the home page)
+    "feature_best_friends_expand_list": "Expand",
+    "feature_best_friends_retract_list": "Retract",
+
+    //View a game's page, replaces join button if the game is restricted such as the player not owning the game
+    "feature_best_friends_view_details": "View Details",
+    "feature_best_friends_join_game": "Join",
+
+    //Button to open the roblox chat system with the specified user
+    "feature_best_friends_open_chat": "Chat with {userName}",
+    //Button to open the specified user's profile page
+    "feature_best_friends_view_profile": "View Profile",
+
+    //Extra outfits
+    //Displays how many more extra outfits a user can have
+    "feature_extra_outfits_remaining_slots": "({SlotsRemaining} slots left)",
+    "feature_extra_outfits_convert_fail": "Failed to convert outfit!",
+    "feature_extra_outfits_convert_delete_fail": "Failed to delete old outfit!",
+
+    //Placeholder text for the search bar for avatar items
+    "feature_avatar_items_search_bar_placeholder": "Search",
+    //Title for button to allow color wheel on limbs
+    "feature_avatar_custom_limb_color": "Choose a custom color",
+    //Button to allow mobile users using the roblox site to bypass roblox blocking avatar page for mobile
+    "feature_avatar_mobile_bypass_block": "Continue anyways",
+
+    //Group feed
+    "feature_group_feed_title": "My Feed",
+
+    //Friends history
+    //Button title for history page
+    "feature_friends_history_button_title": "History",
+    "feature_friends_history_subtitle": "",
+    "feature_friends_history_friended_for": "Friended for ${DayDuration}",
+
+    //Sorts the private servers on a game page by how many people are in the private servers
+    "feature_private_servers_sort_by_player_count": "Sort By Player Count",
+
+    //Shows what devices a game supports
+    "feature_game_allowed_devices": "Allowed Device",
+
+    //Welcome header on home page
+    //User can choose where to put this text and it is optional, periods of the day
+    "feature_welcome_header_morning": "morning",
+    "feature_welcome_header_afternoon": "afternoon",
+    "feature_welcome_header_evening": "evening",
+
+    "feature_pinned_games_list_header": "Pinned Games",
+    "feature_pinned_games_pin": "Pin",
+    "feature_pinned_games_unpin": "Unpin",
+
+    "feature_playtime_header": "Playtime",
+    "feature_playtime_studio_header": "Studio Sessions",
+    "feature_playtime_all_time": "All Time",
+    "feature_playtime_past_day": "Past Day",
+    "feature_playtime_past_week": "Past Week",
+    "feature_playtime_past_month": "Past Month",
+    "feature_playtime_past_year": "Past Year",
+
+    //Icon that shows if a player follows you on roblox
+    "feature_follows_you": "Follows you",
+
+    "feature_last_online_title": "Last Online",
+    "feature_recent_servers_title": "Recent Servers",
+    "feature_recent_servers_no_servers": "No Servers Found.",
+    "feature_recent_servers_join": "Join",
+
+    //Cancel friend request
+    "feature_cancel_friend_request": "Cancel Request",
+    "feature_cancel_friend_request_cancelled": "Cancelled",
+
+    //Server invite
+    "feature_quick_server_invite_copied": "Copied to clipboard!",
+    "feature_quick_server_invite_copied_fail": "Failed to copy!",
+    "feature_quick_server_invite_button": "Invite",
+
+    //Server filters
+    "feature_server_filters_server_region": "Server Region",
+    "feature_server_filters_version_date": "Version Date",
+    "feature_server_filters_version_date_unknown": "Unknown",
+
+    "feature_server_filters_max_players": "Max Players",
+    "feature_server_filters_available_room": "Available Room",
+    "feature_server_filters_smallest_servers": "Smallest Servers",
+    "feature_server_filters_best_connection": "Best Connection",
+    "feature_server_filters_oldest_server": "Oldest Servers",
+    "feature_server_filters_newest_server": "Newest Servers",
+    "feature_server_filters_random_server": "Random Servers",
+
+    "feature_server_filters": "Filter",
+    "feature_server_filters_clear": "Clear",
+    "feature_server_friend_in_server": "Friend in this server: ",
+    "feature_server_friends_in_server": "Friends in this server: ",
+
+    "feature_server_filters_server_count": "Servers: {Count}",
+    "feature_server_filters_join_region": "Join {Region}",
+
+    //Streamer mode
+    "feature_streamer_mode_security_tab_unavailable": "You have streamer mode enabled along with hiding sensitive information. To access this page, please turn one of those settings off.",
+
+    //Settings
+    "settings_Language_title": "Extension Language",
+
+    "settings_OpenNewTabIfRequiredHAB_title": "Open new tab for actions if required",
+    "settings_OpenNewTabIfRequiredHAB_description": "To support the account security update, the extension might have to open a new tab to perform certain actions. (These actions are triggered by you, tabs will not open randomly)",
+    
+    "settings_OpenNewTabIfRequiredJobsHAB_title": "Open new tab for background jobs if required",
+    "settings_OpenNewTabIfRequiredJobsHAB_description": "To support the account security update, the extension might have to open a new tab to perform certain actions. (These are automatically triggered by the extension, this will lead to tabs opening randomly)",
+    
+    "settings_PinnedGroups_title": "Pinned Groups",
+    "settings_PinnedGroups_description": "Allows you to pin groups you are in to the top of your groups list.",
+    
+    "settings_NewMessagePing_title": "New Message Ping",
+    "settings_NewMessagePing_description": "Creates a ping sound whenever you receive a new chat message.",
+    
+    "settings_ExploreAsset_title": "Asset Download/View",
+    "settings_ExploreAsset_description": "Allows you to download or view an asset. Also allows you to go to the image of a decal.",
+    
+    "settings_HideDesktopAppBanner_title": "Hide Desktop App Banner",
+    "settings_HideDesktopAppBanner_description": "Hides the roblox desktop app banner from appearing.",
+    
+    "settings_HideRobloxAds_title": "Hide Roblox Ads",
+    "settings_HideRobloxAds_description": "Hides roblox advertisements from appearing.",
+    
+    "settings_HideFooter_title": "Hide Footer",
+    "settings_HideFooter_description": "Hides the footer at the bottom of the page.",
+    
+    "settings_AddDownloadButtonToNewVersionHistory_title": "Add Download Button to version history",
+    "settings_AddDownloadButtonToNewVersionHistory_description": "Adds a download button to place version history.",
+    
+    "settings_Mutuals_title": "Friend Mutuals",
+    "settings_Mutuals_description": "Shows mutuals on a users page.",
+    
+    "settings_ResizableChatBoxes_title": "Resizable chat boxes",
+    "settings_ResizableChatBoxes_description": "Allows you to resize the chat boxes on the roblox site. (Drag top left)",
+    
+    "settings_FriendsPageLastOnline_title": "Last Online on Friends",
+    "settings_FriendsPageLastOnline_description": "Shows last online if friend is offline on friends page.",
+    
+    "settings_LastOnline_title": "Show Last Online on Profile",
+    "settings_LastOnline_description": "Shows last online of user on their profile",
+    
+    "settings_ShowFollowsYou_title": "Follows You Indicator",
+    "settings_ShowFollowsYou_description": "Shows if a user is following you.",
+    
+    "settings_ViewBannedGroup_title": "View Locked Group",
+    "settings_ViewBannedGroup_description": "Allows you to view locked groups.",
+    
+    "settings_ViewBannedUser_title": "View Banned User",
+    "settings_ViewBannedUser_description": "Allows you to view a banned user. (Safari users will manually have to put in the url: www.roblox.com/banned-user/USERID)",
+    
+    "settings_MinimizableSideBar_title": "Minimizable Sidebar",
+    "settings_MinimizableSideBar_description": "Adds a button to the navigation sidebar to minimize it but still show the buttons.",
+    
+    "settings_DiscordPresence_title": "Discord Presence",
+    "settings_DiscordPresence_description": "Displays what you are playing and join button on discord. (You will not be able to see your own presence if you already have activity, this is a discord limitation)\nUses the account logged into the browser version.",
+    
+    "settings_ExternalDiscordPresence_title": "External Discord Presence",
+    "settings_ExternalDiscordPresence_description": "Displays what you are playing and join button on discord. (",
+    
+    "settings_DiscordPresenceJoin_title": "Show Join Button",
+    "settings_DiscordPresenceJoin_description": "Adds join button to presence to allow other users to join you.",
+    
+    "settings_DiscordServerPreview_title": "Preview Discord Server (EXPERIMENTAL)",
+    "settings_DiscordServerPreview_description": "Adds a preview button to a game discord social link to allow you to preview a server without joining it (Discoverable servers only)",
+    
+    "settings_ModifyHomeLayout_title": "Modify Home Layout",
+    "settings_ModifyHomeLayout_description": "Moves friends list, continue and favourites sorts back to the top.",
+    
+    "settings_ReduceHomeRecommendationsToOneRow_title": "Reduce Home Recommendations",
+    "settings_ReduceHomeRecommendationsToOneRow_description": "Removes all home recommendation rows except one sort",
+    
+    "settings_UserHeader_title": "Home Welcome Header",
+    "settings_UserHeader_description": "Adds back the old home welcome header.",
+    
+    "settings_UserHeaderGreeting_title": "Home Welcome Greeting",
+    //Do not translate the text between the {} and keep the _ before the {}
+    "settings_UserHeaderGreeting_description": "Customise your home greeting message!\n_{displayname}/_{name} - Replaces with display/name. _{period} - Replaces with morning/afternoon/evening based on current time.",
+    
+    "settings_NameOnHomeFriends_title": "Username on home friends row",
+    "settings_NameOnHomeFriends_description": "Adds username to friends on your home page",
+    
+    "settings_FriendsHomeLastOnline_title": "Last Online on Home",
+    "settings_FriendsHomeLastOnline_description": "Shows last online if friend is offline on home page.",
+    
+    "settings_AddRowToHomeFriends_title": "Expand home friends list",
+    "settings_AddRowToHomeFriends_description": "Adds another row to friends list on the home page.",
+    
+    "settings_HidePlayTime_title": "Hide play time on home page",
+    "settings_HidePlayTime_description": "Hides play time on home page.",
+    
+    "settings_HideEditTime_title": "Hide studio session time on home page",
+    "settings_HideEditTime_description": "Hides studio session time on home page.",
+    
+    "settings_LiveExperienceStats_title": "Live Experience Statistics",
+    "settings_LiveExperienceStats_description": "Updates an experiences stats while you are looking at the page.",
+    
+    "settings_ServerRegions_title": "Server Regions",
+    "settings_ServerRegions_description": "Shows where a server is located.",
+    
+    "settings_PreferredServerRegion_title": "Preferred Server Region",
+    "settings_PreferredServerRegion_description": "Adds a button that allows you to join a server from a certain region (if one exists, else it will look for the closest one)",
+    
+    "settings_RandomServersButton_title": "Random Server Button",
+    "settings_RandomServersButton_description": "Adds a button to join a random server",
+    
+    "settings_ServerFilters_title": "Server Filters",
+    "settings_ServerFilters_description": "Allows you to filter servers by region, size and age.",
+    
+    "settings_Playtime_title": "Playtime",
+    "settings_Playtime_description": "Tracks and shows how long you have played a game.",
+    
+    "settings_StudioKey_title": "Studio Linking Key",
+    "settings_StudioKey_description": "Key to link your studio with RoQoL so you can track your edit time!{TextContainerStart}Click here to install the studio plugin.{TextContainerEnd}Current Key: {Key}",
+    
+    "settings_PinnedGames_title": "Pinned Games",
+    "settings_PinnedGames_description": "Allows you to pin games to your home page.",
+    
+    "settings_QuickInvite_title": "Quick Invite",
+    "settings_QuickInvite_description": "A link you can share with your friends to join a server.",
+    
+    "settings_AwardedBadgeDates_title": "Badge Awarded Dates",
+    "settings_AwardedBadgeDates_description": "Shows you when the date you achieved a badge.",
+    
+    "settings_RecentServers_title": "Show Recent Servers",
+    "settings_RecentServers_description": "Shows recent servers you have joined for a game.",
+    
+    "settings_MinimizePrivateServers_title": "Minimizable Private Servers",
+    "settings_MinimizePrivateServers_description": "Allows you to minimize private servers tab.",
+    
+    "settings_SortPrivateServersByPlayerCount_title": "Sort Private Servers by Player Count",
+    "settings_SortPrivateServersByPlayerCount_description": "Enables a checkbox that allows you to sort private servers by how many people are in it.",
+    
+    "settings_SupportedPlatforms_title": "Show Supported Devices",
+    "settings_SupportedPlatforms_description": "Shows what devices a game supports. (Replaces allowed gears)",
+    
+    "settings_ShowFullVoteCount_title": "Show full vote count",
+    "settings_ShowFullVoteCount_description": "Shows the full like/dislike count for a game.",
+    
+    "settings_TradeNotifier_title": "Trade Notifier",
+    "settings_TradeNotifier_description": "Sends you a notification when you receive, send, decline or cancel a trade.",
+    
+    "settings_TradeFilters_title": "Trade Filters",
+    "settings_TradeFilters_description": "Allows you to cancel all, old, loss and other trades.",
+    
+    "settings_ValuesOnOverview_title": "Trade Value Overview",
+    "settings_ValuesOnOverview_description": "Allows you to see trade values on the overview list.",
+    
+    "settings_ShowSummaryOnTrade_title": "Shows earnings on trade",
+    "settings_ShowSummaryOnTrade_description": "Shows how much you earnt/loss in value and rap on a trade.",
+    
+    "settings_TradeAge_title": "Trade Age",
+    "settings_TradeAge_description": "Shows how long ago a trade was created rather than a date.",
+    
+    "settings_ShowValueOnTrade_title": "Show value on trade",
+    "settings_ShowValueOnTrade_description": "Shows total value of trade (rolimons)",
+    
+    "settings_ShowDemandOnTrade_title": "Show demand on trade",
+    "settings_ShowDemandOnTrade_description": "Shows average demand of trade (rolimons)",
+    
+    "settings_ValueDemandOnItem_title": "Demand/Value on Item",
+    "settings_ValueDemandOnItem_description": "Shows a limited item's demand and value.",
+    
+    "settings_ValueAndCategoriesOnOffer_title": "Show demand and categories on offer",
+    "settings_ValueAndCategoriesOnOffer_description": "Shows a limited item's value and categories (rare, projected, hyped) on the offer page.",
+    
+    "settings_RapOnProfile_title": "Rap on Profile",
+    "settings_RapOnProfile_description": "Shows a user's rap on their profile.",
+    
+    "settings_ValueOnProfile_title": "Value on Profile",
+    "settings_ValueOnProfile_description": "Shows a user's rolimons value on their profile.",
+    
+    "settings_QuickDecline_title": "Quick Decline",
+    "settings_QuickDecline_description": "Adds a button to the trades list to quick decline.",
+    
+    "settings_QuickCancel_title": "Quick Cancel",
+    "settings_QuickCancel_description": "Adds a button to the trades list to quick cancel.",
+    
+    "settings_HideSerials_title": "Hide Serials",
+    "settings_HideSerials_description": "Adds a button at the top of a trade to hide serials",
+    
+    "settings_AutodeclineTradeValue_title": "Auto-decline Inbound Value Loss",
+    "settings_AutodeclineTradeValue_description": "Declines any trade that you receive which have a value loss more than specified",
+    
+    "settings_AutodeclineTradeValueThreshold_title": "Auto-decline Inbound Value Loss Threshold",
+    "settings_AutodeclineTradeValueThreshold_description": "",
+    
+    "settings_AutodeclineOutboundTradeValue_title": "Auto-decline Outbound Value Loss",
+    "settings_AutodeclineOutboundTradeValue_description": "Declines any trade that you send which have a value loss more than specified",
+    
+    "settings_AutodeclineOutboundTradeValueThreshold_title": "Auto-decline Outbound Value Loss Threshold",
+    "settings_AutodeclineOutboundTradeValueThreshold_description": "",
+    
+    "settings_AutodeclineLowTradeValue_title": "Auto-decline Low Value Trades",
+    "settings_AutodeclineLowTradeValue_description": "Declines any trade that you send which have less value then specified",
+    
+    "settings_AutodeclineLowTradeValueThreshold_title": "Auto-decline Low Value Trades Threshold",
+    "settings_AutodeclineLowTradeValueThreshold_description": "",
+    
+    "settings_BestFriends_title": "Best Friends",
+    "settings_BestFriends_description": "Adds a new friends row to your home page. (You can add best friends by clicking the three dots on a friends profile)",
+    
+    "settings_FriendHistory_title": "Friend History",
+    "settings_FriendHistory_description": "Allows you to see a history of what friends you have had.",
+    
+    "settings_FriendNotifications_title": "Friend Notifications",
+    "settings_FriendNotifications_description": "Notifies you when you make or lose a friend.",
+    
+    "settings_FriendRequestNotifications_title": "Friend Request Notifications",
+    "settings_FriendRequestNotifications_description": "Notifies you when someone sends you a friend request.",
+    
+    "settings_CancelFriendRequest_title": "Cancel Friend Request",
+    "settings_CancelFriendRequest_description": "Allows you to cancel an outgoing friend request on a users profile.",
+    
+    "settings_ExtraOutfits_title": "Extra Outfits",
+    "settings_ExtraOutfits_description": "Allows you to have more than 50 outfits.",
+    
+    "settings_RemoveAccessoryLimit_title": "Remove Accessory Limit",
+    "settings_RemoveAccessoryLimit_description": "Allows you to equip up to 10 accessories.",
+    
+    "settings_AvatarSearchbar_title": "Item Searchbar",
+    "settings_AvatarSearchbar_description": "Adds a search bar to your avatar page.",
+    
+    "settings_AssetQuickWear_title": "Quick Wear Button",
+    "settings_AssetQuickWear_description": "Adds a quick wear button to an accessory page.",
+    
+    "settings_AvatarCustomColorPicker_title": "Custom Color Picker",
+    "settings_AvatarCustomColorPicker_description": "Adds a new button to the skin tone tab that allows you to change your skin tone with a colour wheel.",
+    
+    "settings_AvatarEditorForMobile_title": "Avatar Editor for Mobile",
+    "settings_AvatarEditorForMobile_description": "Forces the avatar editor on the site to show for mobile.",
+    
+    "settings_StreamerMode_title": "Enable Streamer Mode",
+    "settings_StreamerMode_description": "Hides sensitive information on the roblox page. (EXPERIMENTAL! Some things may not work correctly)",
+    
+    "settings_StreamerModeKeybind_title": "Streamer Mode Keybind",
+    "settings_StreamerModeKeybind_description": "Toggles streamer mode whenever you press the keybind on a roblox page.",
+    
+    "settings_HideAge_title": "Hide Age",
+    "settings_HideAge_description": "Hides your roblox account age. (excludes dob)",
+    
+    "settings_HideSensitiveInfo_title": "Hide Sensitive Information",
+    "settings_HideSensitiveInfo_description": "Hides sensitive information such as your billing information, date of birth, email, phone etc.",
+    
+    "settings_HideRobux_title": "Hide your robux",
+    "settings_HideRobux_description": "Hides anything that displays your robux.",
+    
+    "settings_HideGroupRobux_title": "Hide your group robux",
+    "settings_HideGroupRobux_description": "Hides anything that displays your robux for your groups.",
+    
+    "settings_HideServerInvites_title": "Hide Server Invites",
+    "settings_HideServerInvites_description": "Hides private server invite urls.",
+    
+    "settings_HideNames_title": "Hide Names",
+    "settings_HideNames_description": "Hides names.",
+    
+    "settings_HideSocials_title": "Hide Socials",
+    "settings_HideSocials_description": "Hides your socials on your settings page.",
+    
+    "settings_HideGroupPayouts_title": "Hide Group Payouts Information",
+    "settings_HideGroupPayouts_description": "Hides percentages on group payouts page.",
+    
+    "settings_HidePreferredServerRegion_title": "Hide Preferred Server Region",
+    "settings_HidePreferredServerRegion_description": "Hides preferred server region from the game's page.",
+    
+    "settings_AddSales_title": "Show Sales",
+    "settings_AddSales_description": "Shows the amount of sales on assets you manage/created.",
+    
+    "settings_AddCreationDate_title": "Show Created/Updated Date",
+    "settings_AddCreationDate_description": "Shows the created and updated date of asset.",
+    
+    "settings_ActivePrivateServers_title": "Active Private Servers",
+    "settings_ActivePrivateServers_description": "Allows you to see which private servers are billing you.\nYou can view this on your transactions or inventory page.",
+    
+    "settings_DetailedGroupTranscationSummary_title": "Transaction Summary Source",
+    "settings_DetailedGroupTranscationSummary_description": "Shows source of income on transaction and group summary page.",
+    
+    "settings_CSVChart_title": "CSV Chart",
+    "settings_CSVChart_description": "Allows you to upload a CSV file and display it in a chart (User and Group transactions page).",
+    
+    "settings_ShowUSDPurchaseRate_title": "Show currency in purchase rate",
+    "settings_ShowUSDPurchaseRate_description": "Shows currency prices in purchase rate instead of devex rate",
+    
+    "settings_ShowUSDOnAsset_title": "Show currency price on asset",
+    "settings_ShowUSDOnAsset_description": "Shows price of asset in currency selected",
+    
+    "settings_AddUSDToTransactions_title": "Show currency price on Transactions",
+    "settings_AddUSDToTransactions_description": "Shows price of transactions in currency selected",
+    
+    "settings_AddUSDToGameStore_title": "Show currency price on game store",
+    "settings_AddUSDToGameStore_description": "Shows price of gamepasses from game store in currency selected",
+    
+    "settings_AddUSDToRobux_title": "Show currency on Robux",
+    "settings_AddUSDToRobux_description": "Shows amount of robux in currency selected",
+    
+    "settings_Currency_title": "Currency",
+    "settings_Currency_description": "Shows amount of robux in currency you selected",
+    
+    "settings_InboxNotifications_title": "Inbox Notifications",
+    "settings_InboxNotifications_description": "Send you a notification when you receive a new inbox message.",
+    
+    "settings_IgnoreSystemInboxNofitications_title": "Ignore System Messages",
+    "settings_IgnoreSystemInboxNofitications_description": "Stops system messages sent to your inbox from sending a notification.",
+    
+    "settings_GroupShoutNotifications_title": "Group Shout Notifications",
+    "settings_GroupShoutNotifications_description": "Groups",
+    
+    "settings_AvatarPageCSSFix_title": "Avatar Page Style Fix",
+    "settings_AvatarPageCSSFix_description": "Fixes the styling of the avatar page size so it behaves well with small screens.",
+    
+    "settings_FixAvatarPageFirefoxMobileMenu_title": "Avatar Page Mobile Menu Fix for Firefox Android",
+    "settings_FixAvatarPageFirefoxMobileMenu_description": "Fixes not being able to select a new tab on the avatar page on Firefox Android.",
+    
+    "settings_FixFavouritesPage_title": "Favourites Page Fix",
+    "settings_FixFavouritesPage_description": "Fixes the favourites page only showing the first 30 games.",
+    
+    "settings_PurchasedGamesFix_title": "Purchased Games Fix",
+    "settings_PurchasedGamesFix_description": "Fixes the purchased games option in your inventory.",
+    
+    "settings_NewLoginNotifier_title": "Notification on new login",
+    "settings_NewLoginNotifier_description": "Sends notification to browser when a new login is detected. It includes the location, os, browser and IP of the login.",
+    
+    "settings_NewLoginNotifierTTS_title": "TTS Notification on new login",
+    "settings_NewLoginNotifierTTS_description": "Uses text to speech to say location, os and browser.",
+    
+    "settings_NewLoginNotifierTTSVolume_title": "TTS Notification on new login volume",
+    "settings_NewLoginNotifierTTSVolume_description": "Volume can be between 0 - 1",
+    
+    "settings_OnlyReadNewLoginNotifierTitle_title": "Read title for TTS notifications",
+    "settings_OnlyReadNewLoginNotifierTitle_description": "Only speaks the title (and location if new login) instead of the entire notifiction.",
+    
+    "settings_ShowStateAndCountryOnNewSessionOnly_title": "Only show country and state on new session login",
+    "settings_ShowStateAndCountryOnNewSessionOnly_description": "Only shows country and state on new session notification (Disables city).",
+    
+    "settings_ShowIPOnNewSession_title": "Display IP on new session login",
+    "settings_ShowIPOnNewSession_description": "Shows IP on new session notification.",
+    
+    "settings_IgnoreSessionsFromSameIP_title": "Ignore new sessions from same IP",
+    "settings_IgnoreSessionsFromSameIP_description": "Ignores session if it has the same IP as current browser. (Recommended off for VPN or NAT users)",
+    
+    "settings_DisallowOtherIPs_title": "Disallow other IPs on login",
+    "settings_DisallowOtherIPs_description": "If a session is first logged in from another/unknown IP, it will automatically log it out (Does not affect existing sessions)\nIf you become locked out while away from your device from this setting, use forget your password to regain access.",
+    
+    "settings_StrictlyDisallowOtherIPs_title": "Strictly disallow other IP",
+    "settings_StrictlyDisallowOtherIPs_description": "If a session's IP does not match your device's IP, it will be logged out.\nIf you become locked out while away from your device from this setting, use forget your password to regain access."
+}
