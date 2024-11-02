@@ -105,7 +105,7 @@
     //Button title for history page
     "feature_friends_history_button_title": "History",
     "feature_friends_history_subtitle": "",
-    "feature_friends_history_friended_for": "Friended for ${DayDuration}",
+    "feature_friends_history_friended_for": "Friended for {DayDuration}",
 
     //Sorts the private servers on a game page by how many people are in the private servers
     "feature_private_servers_sort_by_player_count": "Sort By Player Count",
@@ -160,6 +160,7 @@
     "feature_server_filters_oldest_server": "Oldest Servers",
     "feature_server_filters_newest_server": "Newest Servers",
     "feature_server_filters_random_server": "Random Servers",
+    "feature_server_filters_region_map": "Region Map",
 
     "feature_server_filters": "Filter",
     "feature_server_filters_clear": "Clear",
@@ -230,7 +231,7 @@
     "settings_DiscordPresence_description": "Displays what you are playing and join button on discord. (You will not be able to see your own presence if you already have activity, this is a discord limitation)\nUses the account logged into the browser version.",
     
     "settings_ExternalDiscordPresence_title": "External Discord Presence",
-    "settings_ExternalDiscordPresence_description": "Displays what you are playing and join button on discord. (",
+    "settings_ExternalDiscordPresence_description": "Displays what you are playing and join button on discord. ({Link}Requires external program{Link}, which does not have same limitations as browser version)",
     
     "settings_DiscordPresenceJoin_title": "Show Join Button",
     "settings_DiscordPresenceJoin_description": "Adds join button to presence to allow other users to join you.",
@@ -332,8 +333,11 @@
     "settings_ShowDemandOnTrade_title": "Show demand on trade",
     "settings_ShowDemandOnTrade_description": "Shows average demand of trade (rolimons)",
     
-    "settings_ValueDemandOnItem_title": "Demand/Value on Item",
-    "settings_ValueDemandOnItem_description": "Shows a limited item's demand and value.",
+    "settings_ValueDemandOnItem_title": "Demand/Value on catalog item",
+    "settings_ValueDemandOnItem_description": "Shows a limited item's demand and value on the catalog page.",
+
+    "settings_ValueHypesOnTradeItem_title": "Demand/Value on traded item",
+    "settings_ValueHypesOnTradeItem_description": "Shows a limited traded item's value and statuses such as projected and hyped.",
     
     "settings_ValueAndCategoriesOnOffer_title": "Show demand and categories on offer",
     "settings_ValueAndCategoriesOnOffer_description": "Shows a limited item's value and categories (rare, projected, hyped) on the offer page.",
@@ -400,6 +404,9 @@
     
     "settings_AvatarCustomColorPicker_title": "Custom Color Picker",
     "settings_AvatarCustomColorPicker_description": "Adds a new button to the skin tone tab that allows you to change your skin tone with a colour wheel.",
+
+    "settings_AvatarOutfitV2toV3_title": "Improved Avatar Outfit Creation",
+    "settings_AvatarOutfitV2toV3_description": "Adds support for custom body colors and accessory scaling when you create a normal roblox outfit.",
     
     "settings_AvatarEditorForMobile_title": "Avatar Editor for Mobile",
     "settings_AvatarEditorForMobile_description": "Forces the avatar editor on the site to show for mobile.",

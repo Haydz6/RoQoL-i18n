@@ -1,0 +1,17 @@
+Discord Server: https://discord.gg/wwbCgR2sZ5
+
+The extension adds several features and fixes such as:
+
+Session Detector - Sends you a notification of when a new login is detected
+Discord Presence - Shows your current game on discord
+Trading - Options to auto-decline, trade notifier, values and demands on trades and much more.
+Server Filters (Paid) - Allows you to join a server by lowest ping, certain region, oldest, smallest and others
+Playtime - Allows you to see how long you have been playing/editing a game
+Extra Outfits - Allows you to have more than 50 outfits (up to 150 extra for free)
+Friend History - Allows you to get notifications whenever a user friends or unfriends you
+Private Server Billing - Option to see which private servers are billing you
+Quick Invite - Generate a short link to a server that you can quickly share
+Live Experience Stats - Updates the statistics live of an experience you are currently viewing
+
+Full feature list can be found at: https://roqol.io/pages/features
+Privacy policy can be found at: https://roqol.io/pages/privacy
